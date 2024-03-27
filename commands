@@ -1,0 +1,1 @@
+python official_fid_pytorch.py --real_path F:\Datasets\DigestPath\scene_generation\all\1000\256\split\train\benign_images --syn_path F:\Datasets\DigestPath\scene_generation\all\1000\256\split\train\diffusion\benign\images_1 --gpu 0

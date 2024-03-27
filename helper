@@ -1,0 +1,5 @@
+export PATH="/home/srijayd/anaconda3/bin:$PATH"
+
+python main.py --mode test --checkpoint_path ./output/crag_residual_mask2image/model/model.pt --test_mask_dir F:/Datasets/CRAG_LabServer/train/cropped/1024/resized/256/diffusion/masks_from_diffusion_latents_cancer --test_output_dir F:/Datasets/CRAG_LabServer/train/cropped/1024/resized/256/diffusion/images_from_diffusion_latents_cancer
+
+python main.py --train_mask_dir F:/Datasets/CRAG_LabServer/train/cropped/512/resized/256/diffusion/crag_mask_3dim/train/synthetic --train_image_dir F:/Datasets/CRAG_LabServer/train/cropped/512/resized/256/images
